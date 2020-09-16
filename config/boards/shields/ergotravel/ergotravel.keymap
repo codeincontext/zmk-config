@@ -15,8 +15,8 @@
 			bindings = <
 &kp ESC  &kp Q     &kp W     &kp E     &kp R     &kp T     &kp MINUS       &kp EQL   &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BKSP
 &kp TAB  &kp A     &kp S     &kp D     &kp F     &kp G     &kp LBKT        &kp RBKT  &kp H     &kp J     &kp K     &kp L     &kp SCLN  &kp RET
-&kp LSFT &kp Z     &kp X     &kp C     &kp V     &kp B     &mo 1                     &kp N     &kp M     &kp CMMA  &kp DOT   &kp FSLH  &kp QUOT
-&kp LCTL &kp GRAV  &kp LALT  &kp LGUI      &bt BT_CLR   &kp RSFT               &kp SPC      &mo 1         &none     &none     &none     &bt BT_CLR
+&kp LSFT &kp Z     &kp X     &kp C     &kp V     &kp B     &mo 2                     &kp N     &kp M     &kp CMMA  &kp DOT   &kp FSLH  &kp QUOT
+&kp LCTL &kp GRAV  &none     &kp LALT     &kp LGUI    &kp RSFT                &kp SPC      &mo 1         &none     &none     &none     &nonn
 			>;
 		};
 
@@ -27,8 +27,8 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&kp GRAV &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &trans          &trans    &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
-&trans   &trans    &trans    &trans    &trans    &trans    &trans          &trans    &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans
+&kp GRAV &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT  &trans          &trans    &kp CRRT  &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN  &trans
+&trans   &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &trans          &trans    &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
 &trans   &trans    &trans    &trans    &trans    &trans    &trans                    &trans    &trans    &trans    &trans    &trans    &trans
 &trans   &trans    &trans    &trans         &trans     &trans                  &trans      &trans        &trans    &trans    &trans    &trans
 			>;
@@ -41,7 +41,7 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&kp GRAV &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &trans          &trans    &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans      &trans    &trans    &trans    &trans    &trans    &trans    &trans
 &trans   &trans    &trans    &trans    &trans    &trans    &trans          &trans    &kp LARW  &kp DARW  &kp UARW  &kp RARW  &trans    &trans
 &trans   &trans    &trans    &trans    &trans    &trans    &trans                    &trans    &trans    &trans    &trans    &trans    &trans
 &trans   &trans    &trans    &trans         &trans     &trans                  &trans      &trans        &trans    &trans    &trans    &trans
