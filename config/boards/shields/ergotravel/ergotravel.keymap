@@ -4,7 +4,7 @@
 
 #define SPACEL &mt LSFT LPAR
 #define SPACER &mt RSFT RPAR
-#define SUPER &mt &LSHFT(&LCTRL(&LALT(&LCMD(TAB))))
+#define SUPER &mt LS(LC(LA(LCMD))) TAB
 
 / {
 	keymap {
