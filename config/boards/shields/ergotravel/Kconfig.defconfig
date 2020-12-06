@@ -2,11 +2,13 @@
 if SHIELD_ERGOTRAVEL_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "ErgoTravel left test"
+	default "ErgoTravel Left"
+
 endif
 
 if SHIELD_ERGOTRAVEL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "ErgoTravel Right test"
+	default "ErgoTravel Right"
+
 endif
