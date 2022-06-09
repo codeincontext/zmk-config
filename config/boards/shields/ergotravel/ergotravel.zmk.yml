@@ -1,0 +1,12 @@
+file_format: "1"
+id: ergotravel
+name: ErgoTravel
+type: shield
+url: https://github.com/codeincontext/zmk-config/
+requires: [nice_nano]
+exposes: []
+features:
+  - keys
+siblings:
+  - ergotravel_left
+  - ergotravel_right

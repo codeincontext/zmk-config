@@ -22,7 +22,3 @@
 		;
 };
 
-&bt_unpair_combo {
-	// key-positions = <13 47>;
-	key-positions = <7 8>;
-};
